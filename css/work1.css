@@ -4,14 +4,9 @@ body{
     overflow:hidden;
 }
 main{
-    /* transition:.5s; */
-    opacity: 0;
-    animation: fadeIn3 .5s .3s forwards;
-    transform:translateX(-30%);
+    transition:.5s;
 }
-@keyframes fadeIn3 {
-    100%{opacity: 1; transform:translateX(0%)}
-}
+
 .fix{
     margin: 0;
     position: fixed;

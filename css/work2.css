@@ -2,13 +2,7 @@
 @import url('./common.css');
 body{overflow:hidden;}
 main{
-    /* transition:.5s; */
-    opacity: 0;
-    animation: fadeIn3 .5s .3s forwards;
-    transform:translateX(-30%);
-}
-@keyframes fadeIn3 {
-    100%{opacity: 1; transform:translateX(0%)}
+    transition:.5s;
 }
 .fix{
     margin: 0;
